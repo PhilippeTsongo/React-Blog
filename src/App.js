@@ -1,15 +1,24 @@
 import Navbar from './Navbar';
-import Home from './Home';
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import IndexRouter from './Routes/IndexRouter';
 
 function App() {
 
    return (
-      <div className="App">
-         <Navbar />
-         <div className="content">
-            <Home />
+
+      <Router>
+         <div className="App">
+            <Navbar />
+            <div className="content">
+               <Routes>
+                  {IndexRouter.map(({ path, element }) => (
+                  <Route key={path} path={path} element={element} />
+                  ))}
+               </Routes>
+            </div>
          </div>
-      </div>
+      </Router>
    );
 }
 
