@@ -27,7 +27,7 @@ const useFetch = (url) => {
         setTimeout(fetchData, 1000);
     }, [url]);
 
-    return { data, isPending, error };
+    return { data, setData, isPending, error };
 };
 
 export default useFetch;

@@ -10,12 +10,12 @@
   padding: 20px;
   display: flex;
   align-items: center;
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
 }
 .navbar h1 {
-  color: #f1356d;
+  color: #00ccfa;
 }
 .navbar .links {
   margin-left: auto;
@@ -26,10 +26,10 @@
   padding: 6px;
 }
 .navbar a:hover {
-  color: #f1356d;
+  color: #00ccfa;
 }
 .content {
-  max-width: 600px;
+  max-width: 800px;
   margin: 40px auto;
   padding: 20px;
 }
@@ -39,15 +39,47 @@
   padding: 10px 16px;
   margin: 20px 0;
   border-bottom: 1px solid #fafafa;
+  border-radius: 0px;
 }
 .blog-preview:hover {
-  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  box-shadow: 1px 3px 5px #00ccfa;
 }
 .blog-preview h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #00ccfa;
   margin-bottom: 8px;
 }
+.blog-preview .remove{
+  text-align: right;
+}
+.blog-preview .remove button{
+  background: #db1515;
+  border: none;
+  border-radius: 5px;
+  padding: 4px;
+  color: white;
+}
+
+.not-found .remove{
+  margin-top: 50px;
+  background: #00ccfa;
+  border: none;
+  border-radius: 5px;
+  padding: 4px;
+  color: white;
+  text-decoration: none;
+}
+
+
+.blog-details .delete{
+  background: #db1515;
+  border: none;
+  border-radius: 5px;
+  padding: 4px;
+  color: white;
+}
+
 .blog-preview a{
   text-decoration: none;
 }
@@ -55,14 +87,14 @@
 /* blog details page */
 .blog-details h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #00ccfa;
   margin-bottom: 10px;
 }
 .blog-details div {
   margin: 20px 0;
 }
 .blog-details button {
-  background: #f1356d;
+  background: #00ccfa;
   color: #fff;
   border: 0;
   padding: 8px;
@@ -72,7 +104,7 @@
 
 /* create new blog form */
 .create {
-  max-width: 400px;
+  max-width: 500px;
   margin: 0 auto;
   text-align: center;
 }
@@ -82,7 +114,7 @@
 }
 .create h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #00ccfa;
   margin-bottom: 30px;
 }
 .create input, .create textarea, .create select {
@@ -94,7 +126,7 @@
   display: block;
 }
 .create button {
-  background: #f1356d;
+  background: #00ccfa;
   color: #fff;
   border: 0;
   padding: 8px;

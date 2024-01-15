@@ -3,6 +3,7 @@
 import Home from '../Home';
 import Create from '../Create';
 import BlogDetails from '../BlogDetails';
+import NotFound from '../NotFound';
 // Import other components as needed
 
 const routes = [
@@ -20,6 +21,11 @@ const routes = [
     name: 'blog-details',
     path: 'blog/:id',
     element: <BlogDetails />
+  },
+  {
+    name: 'not-found',
+    path: '*',
+    element: <NotFound />
   }
   // Add more routes as needed
 ];

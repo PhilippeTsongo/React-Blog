@@ -1,13 +1,6 @@
 {
   "blogs": [
     {
-      "id": "1",
-      "title": "The Journey of a Developer",
-      "body": "In the vast landscape of programming, every line of code tells a story. The journey of a developer is an exploration of problem-solving, creativity, and continuous learning. From the initial spark of an idea to the execution of a fully functional application, the process is both challenging and rewarding. Along the way, developers encounter bugs that act as puzzles to be solved, learn new technologies that expand their toolkit, and collaborate with others to bring visions to life. The coding journey is not just about building software; it's about embracing the dynamic and ever-evolving nature of technology. As a developer, each keystroke is a step forward, shaping the digital world we live in.",
-      "author": "CodeExplorer",
-      "date": "2024-02-15"
-    },
-    {
       "id": "2",
       "title": "The Art of Coding",
       "body": "Coding is not just about writing lines of code; it's about creating digital art. The elegant dance of algorithms and the symphony of logic come together to build the virtual world we navigate every day. Whether you're a seasoned developer or just starting, the canvas of code awaits your creativity.",
@@ -27,6 +20,30 @@
       "body": "The kitchen is not just a place for recipes; it's a canvas for culinary creativity. Experimenting with flavors, combining ingredients, and adding a dash of innovation transform cooking into an art form. So put on your apron and let your taste buds dance to the symphony of flavors.",
       "author": "Chef Julia",
       "date": "2024-02-03"
+    },
+    {
+      "id": "1d90",
+      "title": "philippe le futur millionnaire ",
+      "author": "",
+      "body": "le millionnaire bien jeune Philippe Tsongo Tahakava est un jeune devoue et courageux"
+    },
+    {
+      "id": "9fba",
+      "title": "philippe le futur millionnaire ",
+      "author": "",
+      "body": "le millionnaire bien jeune Philippe Tsongo Tahakava est un jeune devoue et courageux"
+    },
+    {
+      "id": "a3ac",
+      "title": "Le jeune courageux Philippe Tsongo Tahakava est l'un de futur millionnaire de l'annee",
+      "author": "",
+      "body": "Le jeune courageux Philippe Tsongo Tahakava est l'un de futur millionnaire de l'annee. Ce jeun aussi motive"
+    },
+    {
+      "id": "f248",
+      "title": "Hello ninja again",
+      "author": "Tsongo",
+      "body": "Ninjas are all thos people who strguggle pursuing their vision and goals. They not only set goals but day by day they work hard to make each single day the most productive one in their life. You too should do so"
     }
   ]
 }
