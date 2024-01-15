@@ -1,7 +1,32 @@
 {
-    "blogs" : [
-        {"title": "Real gangs", "body": "Real gangs are real lendends that need good protection", "author": "Philippe", "id": 1},
-        {"title": "Traffic jams", "body": "This is actually caussed by drivers who don't respect the code", "author": "Tsongo", "id": 2},
-        {"title": "The last day", "body": "On the last day of our training at this amazing and ....", "author": "Phil", "id": 3}
-    ]
+  "blogs": [
+    {
+      "id": "1",
+      "title": "The Journey of a Developer",
+      "body": "In the vast landscape of programming, every line of code tells a story. The journey of a developer is an exploration of problem-solving, creativity, and continuous learning. From the initial spark of an idea to the execution of a fully functional application, the process is both challenging and rewarding. Along the way, developers encounter bugs that act as puzzles to be solved, learn new technologies that expand their toolkit, and collaborate with others to bring visions to life. The coding journey is not just about building software; it's about embracing the dynamic and ever-evolving nature of technology. As a developer, each keystroke is a step forward, shaping the digital world we live in.",
+      "author": "CodeExplorer",
+      "date": "2024-02-15"
+    },
+    {
+      "id": "2",
+      "title": "The Art of Coding",
+      "body": "Coding is not just about writing lines of code; it's about creating digital art. The elegant dance of algorithms and the symphony of logic come together to build the virtual world we navigate every day. Whether you're a seasoned developer or just starting, the canvas of code awaits your creativity.",
+      "author": "John Coder",
+      "date": "2024-02-01"
+    },
+    {
+      "id": "3",
+      "title": "Exploring the Cosmos of Design",
+      "body": "Design is the bridge between imagination and reality. Every pixel, every color, and every curve contributes to the visual storytelling of a product. As designers, we embark on a cosmic journey, exploring the infinite possibilities of user experiences and pushing the boundaries of creativity.",
+      "author": "Alice Designer",
+      "date": "2024-02-02"
+    },
+    {
+      "id": "4",
+      "title": "Cooking Up Creativity in the Kitchen",
+      "body": "The kitchen is not just a place for recipes; it's a canvas for culinary creativity. Experimenting with flavors, combining ingredients, and adding a dash of innovation transform cooking into an art form. So put on your apron and let your taste buds dance to the symphony of flavors.",
+      "author": "Chef Julia",
+      "date": "2024-02-03"
+    }
+  ]
 }
